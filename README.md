@@ -1,7 +1,9 @@
 # ProductGraphSleepNet
-Firstly, we would like to note that due to the larger size of the raw or feature extracted files of the MASS-SS3 and SleepEDF datasets and also the pertained models than 100 MB, unfortunately, we were not able to upload our data along with the codes. Although, if it is possible for us to send the feature extracted data to you in an alternating way, please let us know. However, in the case of acceptance of our paper, we will publish the feature extracted files and the pertained models along with the reproducible codes on Github. We hope the provided instructions are clear.
+This repository implements the proposed ProductGrapgSleepNet via Tensroflow and Keras. In the case of using our codes, kindly please consider cite the following paper. 
 
-Note that some parts of the codes in the current repositary are stringly inspired by the following repositaries. Therefore, in the case of using our codes, kindly please consider siting them, too.
+[Einizade, A., Nasiri, S., Sardouie, S. H., & Clifford, G. (2022). ProductGraphSleepNet: Sleep Staging using Product Spatio-Temporal Graph Learning with Attentive Temporal Aggregation. arXiv preprint arXiv:2212.04881.](https://arxiv.org/abs/2212.04881)
+
+Note that some parts of the codes in the current repositary are partially inspired by the following repositaries. Therefore, in the case of using our codes, kindly please consider citing them, too.
 
 https://github.com/ziyujia/GraphSleepNet
 
