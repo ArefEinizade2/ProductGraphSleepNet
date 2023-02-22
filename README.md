@@ -1,11 +1,15 @@
 # ProductGraphSleepNet
 Firstly, we would like to note that due to the larger size of the raw or feature extracted files of the MASS-SS3 and SleepEDF datasets and also the pertained models than 100 MB, unfortunately, we were not able to upload our data along with the codes. Although, if it is possible for us to send the feature extracted data to you in an alternating way, please let us know. However, in the case of acceptance of our paper, we will publish the feature extracted files and the pertained models along with the reproducible codes on Github. We hope the provided instructions are clear.
 
-*) reproduce the results on the MASS-SS3 database:
-•	Step 1: After cloning the provided .zip file, download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder:
+Reproduce the results on the MASS-SS3 database:
+
+Step 1: After cloning the provided .zip file, download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder:
+
 http://ceams-carsm.ca/en/mass/
-•	Step 2: run "MASS_SS3_process.py" to generate the feature extracted file (i.e., "MASS_SS3_DE_16folds.npz").
-•	Step 3: run "MASS_SS3_Train_Test.py" to reproduce the classification results and generate the learned temporal (i.e., "MASS_SS3_LearnedGraphsTempral.npy") and spatial (i.e., "MASS_SS3_LearnedGraphsSpatial.npy") graphs.
+
+Step 2: run "MASS_SS3_process.py" to generate the feature extracted file (i.e., "MASS_SS3_DE_16folds.npz").
+
+Step 3: run "MASS_SS3_Train_Test.py" to reproduce the classification results and generate the learned temporal (i.e., "MASS_SS3_LearnedGraphsTempral.npy") and spatial (i.e., "MASS_SS3_LearnedGraphsSpatial.npy") graphs.
 
 *) reproduce the results on the SleepEDF database:
 •	Step 1: After cloning the provided .zip file, download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder:
