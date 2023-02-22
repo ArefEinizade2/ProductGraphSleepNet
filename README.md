@@ -26,9 +26,9 @@ Step 3: run "MASS_SS3_Train_Test.py" to reproduce the classification results and
 Step 1: After cloning the provided .zip file, download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder:
 https://www.physionet.org/content/sleep-edfx/1.0.0/
 
-Step 2: run "SleepEDF20_process.py" to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
+Step 2: run `SleepEDF20_process.py` to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
 
-Step 3: run "SleepEDF20_Train_Test.py" to reproduce the classification results.
+Step 3: run `SleepEDF20_Train_Test.py` to reproduce the classification results.
 
 ## Descriptions of the provided files:
 
