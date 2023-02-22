@@ -28,6 +28,8 @@ Step 2: run "SleepEDF20_process.py" to generate the feature extracted file (i.e.
 
 Step 3: run "SleepEDF20_Train_Test.py" to reproduce the classification results.
 
+## Descriptions of the provided files:
+
 In the following, brief descriptions of all provided files are given:
 - `ProductGraphSleepNet.py`: implements the proposed ProductGraphSleepNet described in the paper.
 - `DE_PSD.py`: a function to calculate the Differential Entropy (DE) and Power Spectral Density (PSD) features 
