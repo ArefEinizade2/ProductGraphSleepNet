@@ -38,6 +38,7 @@ Keras==2.2.4
 Tensorflow==1.10.0      
 tensorflow-gpu==1.12.0      
 sklearn==0.0
+
 mne==0.19.2               
 MATLAB==2018b
 
