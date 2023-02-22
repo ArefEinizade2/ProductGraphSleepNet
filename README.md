@@ -46,14 +46,14 @@ In the following, brief descriptions of all provided files are given:
 
 The provided codes have been written in following settings:
 
--Matplotlib==3.0.2       
--Numpy==1.19.5      
--Scipy==1.1.0       
--Keras==2.2.4       
--Tensorflow==1.10.0      
--tensorflow-gpu==1.12.0      
--sklearn==0.0 
--mne==0.19.2               
--MATLAB==2018b
+- Matplotlib==3.0.2       
+- Numpy==1.19.5      
+- Scipy==1.1.0       
+- Keras==2.2.4       
+- Tensorflow==1.10.0      
+- tensorflow-gpu==1.12.0      
+- sklearn==0.0 
+- mne==0.19.2               
+- MATLAB==2018b
 
 
