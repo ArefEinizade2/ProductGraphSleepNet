@@ -19,25 +19,28 @@ Step 2: run `MASS_SS3_process.py` to generate the feature extracted file (i.e., 
 
 Step 3: run "MASS_SS3_Train_Test.py" to reproduce the classification results and generate the learned temporal (i.e., "MASS_SS3_LearnedGraphsTempral.npy") and spatial (i.e., "MASS_SS3_LearnedGraphsSpatial.npy") graphs.
 
-*) reproduce the results on the SleepEDF database:
-•	Step 1: After cloning the provided .zip file, download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder:
+## Reproduce the results on the SleepEDF database:
+
+Step 1: After cloning the provided .zip file, download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder:
 https://www.physionet.org/content/sleep-edfx/1.0.0/
-•	Step 2: run "SleepEDF20_process.py" to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
-•	Step 3: run "SleepEDF20_Train_Test.py" to reproduce the classification results.
 
-*) In the following, brief descriptions of all provided files are given:
-•	ProductGraphSleepNet.py: implements the proposed ProductGraphSleepNet described in the paper.
-•	DE_PSD.py: a function to calculate the Differential Entropy (DE) and Power Spectral Density (PSD) features 
-•	graph_attention_layer.py: a custom layer implementing the Graph-wise Attention (GwAT) module described in the paper
-•	MASS_SS3.config and SleepEDF20.config: config files to set hyperparameters and training parameters. Note that if "use_pretrained" is set to "True", the program only generates the results from pre-trained models. If "use_pretrained" is set to "False", the program trains the models entirely on the feature extracted files.
-•	MASS_SS3_process.py and SleepEDF20_process.py: extracting and saving DE features from raw MASS-SS3 or SleepEDF databases.
-•	MASS_SS3_DataGenerator.py and SleepEDF20_DataGenerator.py: splitting the data into Cross-Subject Cross-Validation sections.
-•	MASS_SS3_Utils.py and SleepEDF20_Utils.py: helpful functions to visualize the results
-•	MASS_SS3_Train_Test.py and SleepEDF20_Train_Test.py: reproduce the results and generate the learned spatial and temporal graphs.
-•	ChanLocs_and_ChanNames.mat: locations of the EEG electrodes for visualizing the spatial graphs
-•	Plot_learned_Spatial_Temporal_Graphs.m: a MATLAB file to plot the learned graphs
+Step 2: run "SleepEDF20_process.py" to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
 
-*) The provided codes have been written in following settings:
+Step 3: run "SleepEDF20_Train_Test.py" to reproduce the classification results.
+
+In the following, brief descriptions of all provided files are given:
+ProductGraphSleepNet.py: implements the proposed ProductGraphSleepNet described in the paper.
+DE_PSD.py: a function to calculate the Differential Entropy (DE) and Power Spectral Density (PSD) features 
+graph_attention_layer.py: a custom layer implementing the Graph-wise Attention (GwAT) module described in the paper
+MASS_SS3.config and SleepEDF20.config: config files to set hyperparameters and training parameters. Note that if "use_pretrained" is set to "True", the program only generates the results from pre-trained models. If "use_pretrained" is set to "False", the program trains the models entirely on the feature extracted files.
+MASS_SS3_process.py and SleepEDF20_process.py: extracting and saving DE features from raw MASS-SS3 or SleepEDF databases.
+MASS_SS3_DataGenerator.py and SleepEDF20_DataGenerator.py: splitting the data into Cross-Subject Cross-Validation sections.
+MASS_SS3_Utils.py and SleepEDF20_Utils.py: helpful functions to visualize the results
+MASS_SS3_Train_Test.py and SleepEDF20_Train_Test.py: reproduce the results and generate the learned spatial and temporal graphs.
+ChanLocs_and_ChanNames.mat: locations of the EEG electrodes for visualizing the spatial graphs
+Plot_learned_Spatial_Temporal_Graphs.m: a MATLAB file to plot the learned graphs
+
+The provided codes have been written in following settings:
 
 Matplotlib==3.0.2       
 Numpy==1.19.5      
