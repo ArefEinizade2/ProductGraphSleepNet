@@ -1,7 +1,7 @@
 # ProductGraphSleepNet
 This repository implements the proposed ProductGrapgSleepNet via Tensroflow and Keras. In the case of using our codes, kindly please consider cite the following paper. 
 
-[Einizade, A., Nasiri, S., Sardouie, S. H., & Clifford, G. (2022). ProductGraphSleepNet: Sleep Staging using Product Spatio-Temporal Graph Learning with Attentive Temporal Aggregation. arXiv preprint arXiv:2212.04881.](https://arxiv.org/abs/2212.04881)
+[Einizade, Aref, Samaneh Nasiri, Sepideh Hajipour Sardouie, and Gari Clifford. "ProductGraphSleepNet: Sleep Staging using Product Spatio-Temporal Graph Learning with Attentive Temporal Aggregation." arXiv preprint arXiv:2212.04881 (2022).](https://arxiv.org/abs/2212.04881)
 
 Note that some parts of the codes in the current repositary are partially inspired by the following repositaries. Therefore, in the case of using our codes, kindly please consider citing them, too.
 
