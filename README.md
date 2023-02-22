@@ -1,9 +1,9 @@
 # ProductGraphSleepNet
-This repository implements the proposed ProductGrapgSleepNet via Tensroflow and Keras. In the case of using our codes, kindly please consider cite the following paper. 
+This repository implements the proposed ProductGraphSleepNet via TensorFlow and Keras. In the case of using our codes, kindly please consider citing the following paper. 
 
 [Einizade, Aref, Samaneh Nasiri, Sepideh Hajipour Sardouie, and Gari Clifford. "ProductGraphSleepNet: Sleep Staging using Product Spatio-Temporal Graph Learning with Attentive Temporal Aggregation." arXiv preprint arXiv:2212.04881 (2022).](https://arxiv.org/abs/2212.04881)
 
-Note that some parts of the codes in the current repositary are partially inspired by the following repositaries. Therefore, in the case of using our codes, kindly please consider citing them, too.
+Note that some parts of the codes in the current repository are partially inspired by the following repositories. Therefore, in the case of using our codes, kindly please consider citing them, too.
 
 https://github.com/ziyujia/GraphSleepNet
 
@@ -36,7 +36,7 @@ In the following, brief descriptions of all provided files are given:
 - `ProductGraphSleepNet.py`: implements the proposed ProductGraphSleepNet described in the paper.
 - `DE_PSD.py`: a function to calculate the Differential Entropy (DE) and Power Spectral Density (PSD) features 
 - `graph_attention_layer.py`: a custom layer implementing the Graph-wise Attention (GwAT) module described in the paper
-- `MASS_SS3.config` and `SleepEDF20.config`: config files to set hyperparameters and training parameters. Note that if "use_pretrained" is set to "True", the program only generates the results from pre-trained models. If "use_pretrained" is set to "False", the program trains the models entirely on the feature extracted files.
+- `MASS_SS3.config` and `SleepEDF20.config`: config files to set hyperparameters and training parameters. Note that if "use_pretrained" is set to "True", the program only generates the results from pre-trained models. If "use_pretrained" is set to "False", the program trains the models entirely on the feature-extracted files.
 - `MASS_SS3_process.py` and `SleepEDF20_process.py`: extracting and saving DE features from raw MASS-SS3 or SleepEDF databases.
 - `MASS_SS3_DataGenerator.py` and `SleepEDF20_DataGenerator.py`: splitting the data into Cross-Subject Cross-Validation sections.
 - `MASS_SS3_Utils.py` and `SleepEDF20_Utils.py`: helpful functions to visualize the results
@@ -44,16 +44,14 @@ In the following, brief descriptions of all provided files are given:
 - `ChanLocs_and_ChanNames.mat`: locations of the EEG electrodes for visualizing the spatial graphs
 - `Plot_learned_Spatial_Temporal_Graphs.m`: a MATLAB file to plot the learned graphs
 
-The provided codes have been written in following settings:
+The provided codes have been written in the following settings:
 
 - Matplotlib==3.0.2       
 - Numpy==1.19.5      
 - Scipy==1.1.0       
 - Keras==2.2.4       
 - Tensorflow==1.10.0      
-- tensorflow-gpu==1.12.0      
+- TensorFlow-gpu==1.12.0      
 - sklearn==0.0 
 - mne==0.19.2               
 - MATLAB==2018b
-
-
