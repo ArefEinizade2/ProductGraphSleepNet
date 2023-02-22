@@ -13,13 +13,13 @@ https://github.com/danielegrattarola/keras-gat
 
 ## Reproduce the results on the MASS-SS3 database:
 
-Step 1: After cloning the provided .zip file, download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder:
+Step 1: Download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder:
 
 http://ceams-carsm.ca/en/mass/
 
-Step 2: run `MASS_SS3_process.py` to generate the feature extracted file (i.e., "MASS_SS3_DE_16folds.npz").
+Step 2: Run `MASS_SS3_process.py` to generate the feature extracted file (i.e., "MASS_SS3_DE_16folds.npz").
 
-Step 3: run "MASS_SS3_Train_Test.py" to reproduce the classification results and generate the learned temporal (i.e., "MASS_SS3_LearnedGraphsTempral.npy") and spatial (i.e., "MASS_SS3_LearnedGraphsSpatial.npy") graphs.
+Step 3: Run `MASS_SS3_Train_Test.py` to reproduce the classification results and generate the learned temporal (i.e., "MASS_SS3_LearnedGraphsTempral.npy") and spatial (i.e., "MASS_SS3_LearnedGraphsSpatial.npy") graphs.
 
 ## Reproduce the results on the SleepEDF database:
 
