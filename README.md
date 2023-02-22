@@ -1,7 +1,7 @@
 # ProductGraphSleepNet
 Firstly, we would like to note that due to the larger size of the raw or feature extracted files of the MASS-SS3 and SleepEDF datasets and also the pertained models than 100 MB, unfortunately, we were not able to upload our data along with the codes. Although, if it is possible for us to send the feature extracted data to you in an alternating way, please let us know. However, in the case of acceptance of our paper, we will publish the feature extracted files and the pertained models along with the reproducible codes on Github. We hope the provided instructions are clear.
 
-![This is an image](AllNetwork.pdf)
+![This is an image](AllNetwork.png)
 
 ## Reproduce the results on the MASS-SS3 database:
 
