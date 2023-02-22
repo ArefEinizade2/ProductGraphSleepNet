@@ -13,7 +13,7 @@ https://github.com/danielegrattarola/keras-gat
 
 ## Reproduce the results on the MASS-SS3 database:
 
-Step 1: Download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder:
+Step 1: Download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder.
 
 http://ceams-carsm.ca/en/mass/
 
@@ -23,12 +23,12 @@ Step 3: Run `MASS_SS3_Train_Test.py` to reproduce the classification results and
 
 ## Reproduce the results on the SleepEDF database:
 
-Step 1: After cloning the provided .zip file, download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder:
+Step 1: Download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder.
 https://www.physionet.org/content/sleep-edfx/1.0.0/
 
-Step 2: run `SleepEDF20_process.py` to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
+Step 2: Run `SleepEDF20_process.py` to generate the feature extracted file (i.e., "SleepEDF20_DE_20Folds.npz").
 
-Step 3: run `SleepEDF20_Train_Test.py` to reproduce the classification results.
+Step 3: Run `SleepEDF20_Train_Test.py` to reproduce the classification results.
 
 ## Descriptions of the provided files:
 
@@ -52,7 +52,7 @@ Scipy==1.1.0
 Keras==2.2.4       
 Tensorflow==1.10.0      
 tensorflow-gpu==1.12.0      
-sklearn==0.0
+sklearn==0.0 
 mne==0.19.2               
 MATLAB==2018b
 
