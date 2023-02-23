@@ -13,7 +13,7 @@ https://github.com/danielegrattarola/keras-gat
 
 ## Reproduce the results on the public Montreal Archive of Sleep Studies (MASS)-SS3 database:
 
-Step 1: Download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder.
+Step 1: Create a new folder named "MASS SS3 raw edf". Download the raw .edf files ("* Base.edf" and "* PSG.edf") of the MASS-SS3 database from the following link and put them in the "MASS SS3 raw edf" folder.
 
 http://ceams-carsm.ca/en/mass/
 
@@ -23,7 +23,7 @@ Step 3: Run `MASS_SS3_Train_Test.py` to reproduce the classification results and
 
 ## Reproduce the results on the public SleepEDF database:
 
-Step 1: Download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder.
+Step 1: Create a new folder named "SleepEDF20 raw mat". Download the raw .edf files, convert them (PSG signals and their labels) to .mat files ("* -PSG.mat" with two keys "record" and "Labels") of the SleepEDF database from the following link and put them in the "SleepEDF20 raw mat" folder.
 
 https://www.physionet.org/content/sleep-edfx/1.0.0/
 
