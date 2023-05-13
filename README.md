@@ -9,7 +9,7 @@ https://github.com/ziyujia/GraphSleepNet
 
 https://github.com/danielegrattarola/keras-gat
 
-![This is an image](AllNetwork_Modified.pdf)
+![This is an image](AllNetwork_Modified.png)
 
 ## Reproduce the results on the public Montreal Archive of Sleep Studies (MASS)-SS3 database:
 
